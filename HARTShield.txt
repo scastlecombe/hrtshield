@@ -1,89 +1,34 @@
-%
-M48
-M72
-T01C0.0315
-T02C0.0394
-T03C0.0400
-T04C0.0472
-%
-T01
-X13767Y10860
-X14703Y10904
-X16409Y10360
-X17704Y10720
-X19454Y10220
-X20954Y10220
-X18909Y12110
-X19704Y15470
-X20704Y17470
-X22466Y18764
-X23623Y18318
-X24704Y17720
-X25454Y17720
-X25026Y18777
-X26954Y17720
-X23654Y15470
-X22454Y15720
-X20954Y20220
-X21780Y21071
-X21204Y21720
-X20454Y21720
-X19690Y21071
-X19704Y20220
-X16954Y20970
-X15645Y22044
-X14704Y21220
-X15159Y18860
-X16659Y18860
-X14409Y16610
-X13704Y17220
-X12204Y17970
-X12017Y14319
-X16409Y8110
-X24836Y22061
-X24204Y22470
-X25704Y22470
-X22704Y22220
-X21204Y22720
-X20454Y22720
-X21658Y24186
-T02
-X10825Y9121
-X10825Y10121
-X10825Y11121
-X10825Y12121
-X10825Y13121
-X10825Y14121
-X10825Y16121
-X10825Y17121
-X10825Y18121
-X10825Y19121
-X10825Y20121
-X10825Y21121
-X29825Y21621
-X29825Y22621
-X29825Y23621
-X29825Y24621
-X29825Y20621
-X29825Y19621
-X29825Y18621
-X29825Y17621
-X29825Y16121
-X29825Y15121
-X29825Y14121
-X29825Y13121
-X29825Y12121
-X29825Y11121
-X29825Y10121
-X29825Y9121
-T03
-X14209Y9360
-X13109Y9360
-X13909Y18310
-X13909Y19410
-T04
-X16159Y5360
-X17537Y5360
-X18915Y5360
-X20293Y5360
-M30
+Partlist exported from C:/Users/Key/SkyDrive/eagle/HRTShield/HARTShield.sch at 06.11.2013 1:31:48
+
+Part     Value        Device                    Package               Description                                                                         MF    MPN        OC_FARNELL OC_NEWARK PROD_ID   VALUE
+AMP1     OP177GS      OP177GS                   SO8                   Ultraprecision amplifier                                                                                                                 
+ARDUINO1 ARDUINO      ARDUINO                   ARDUINO               For creating Arduino shields                                                                                                             
+C1       27p          CAP0603-CAP               0603-CAP              Capacitor                                                                                                                                
+C2       27p          CAP0603-CAP               0603-CAP              Capacitor                                                                                                                                
+C3       0.1uF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
+C4       0.1uF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
+C5       2.2nF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
+C6       10uF         10UF-TANT                 EIA3216               10uF Tantalum SMT                                                                                                         CAP-00811 10uF 
+C7       10nF         0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
+C8       4.7uF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
+C9       10uF         10UF-TANT                 EIA3216               10uF Tantalum SMT                                                                                                         CAP-00811 10uF 
+C10      0.1uF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
+C11      10uF         10UF-TANT                 EIA3216               10uF Tantalum SMT                                                                                                         CAP-00811 10uF 
+C12      10uF         10UF-TANT                 EIA3216               10uF Tantalum SMT                                                                                                         CAP-00811 10uF 
+C13      0.1uF        0.1UF-50V-20%(PTH)KIT-EZ  CAP-PTH-SMALL-KIT     CAP-08370                                                                                                                 CAP-08370      
+C14                   0.1UF-50V-20%(PTH)KIT-EZ  CAP-PTH-SMALL-KIT     CAP-08370                                                                                                                 CAP-08370      
+CNV1     ICL7660CSA   ICL7660CSA                SO08                  VOLTAGE CONVERTER                                                                   MAXIM ICL7660CSA 9724710    34C3732                  
+FLT1     MAX404X-SO8  MAX404X-SO8               SO8                   Rail-to-rail precise amp                                                                                                                 
+HART1    DS8500TQFN20 DS8500TQFN20              TQFN20-5X5            Hart Modem                                                                                                                               
+JP1      HART         M04SCREW                  SCREWTERMINAL-3.5MM-4 Header 4                                                                                                                                 
+R1       300k         RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
+R2       1k           RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
+R3       1            RESISTOR1206              1206                  Resistor                                                                                                                                 
+R4       300k         RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
+R5       1k           RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
+R6       1.58K        RESISTOR0603              0603-RES              Resistor                                                                                                                                 
+R7       1.8k         RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
+R8       10k          RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
+TP1                   TEST-POINT2               PAD.02X.02            Bare copper test points for troubleshooting or ICT                                                                                       
+TP2                   TEST-POINT2               PAD.02X.02            Bare copper test points for troubleshooting or ICT                                                                                       
+Y1       3M6864       CRYSTALSMD                HC49UP                Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00534                                                      
