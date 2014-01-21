@@ -1,34 +1,41 @@
-Partlist exported from C:/Users/Key/SkyDrive/eagle/HRTShield/HARTShield.sch at 06.11.2013 1:31:48
+Partlist
 
-Part     Value        Device                    Package               Description                                                                         MF    MPN        OC_FARNELL OC_NEWARK PROD_ID   VALUE
-AMP1     OP177GS      OP177GS                   SO8                   Ultraprecision amplifier                                                                                                                 
-ARDUINO1 ARDUINO      ARDUINO                   ARDUINO               For creating Arduino shields                                                                                                             
-C1       27p          CAP0603-CAP               0603-CAP              Capacitor                                                                                                                                
-C2       27p          CAP0603-CAP               0603-CAP              Capacitor                                                                                                                                
-C3       0.1uF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
-C4       0.1uF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
-C5       2.2nF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
-C6       10uF         10UF-TANT                 EIA3216               10uF Tantalum SMT                                                                                                         CAP-00811 10uF 
-C7       10nF         0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
-C8       4.7uF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
-C9       10uF         10UF-TANT                 EIA3216               10uF Tantalum SMT                                                                                                         CAP-00811 10uF 
-C10      0.1uF        0.1UF-25V(+80/-20%)(0603) 0603-CAP              Ceramic                                                                                                                   CAP-00810 0.1uF
-C11      10uF         10UF-TANT                 EIA3216               10uF Tantalum SMT                                                                                                         CAP-00811 10uF 
-C12      10uF         10UF-TANT                 EIA3216               10uF Tantalum SMT                                                                                                         CAP-00811 10uF 
-C13      0.1uF        0.1UF-50V-20%(PTH)KIT-EZ  CAP-PTH-SMALL-KIT     CAP-08370                                                                                                                 CAP-08370      
-C14                   0.1UF-50V-20%(PTH)KIT-EZ  CAP-PTH-SMALL-KIT     CAP-08370                                                                                                                 CAP-08370      
-CNV1     ICL7660CSA   ICL7660CSA                SO08                  VOLTAGE CONVERTER                                                                   MAXIM ICL7660CSA 9724710    34C3732                  
-FLT1     MAX404X-SO8  MAX404X-SO8               SO8                   Rail-to-rail precise amp                                                                                                                 
-HART1    DS8500TQFN20 DS8500TQFN20              TQFN20-5X5            Hart Modem                                                                                                                               
-JP1      HART         M04SCREW                  SCREWTERMINAL-3.5MM-4 Header 4                                                                                                                                 
-R1       300k         RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
-R2       1k           RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
-R3       1            RESISTOR1206              1206                  Resistor                                                                                                                                 
-R4       300k         RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
-R5       1k           RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
-R6       1.58K        RESISTOR0603              0603-RES              Resistor                                                                                                                                 
-R7       1.8k         RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
-R8       10k          RESISTOR0805-RES          0805                  Resistor                                                                                                                                 
-TP1                   TEST-POINT2               PAD.02X.02            Bare copper test points for troubleshooting or ICT                                                                                       
-TP2                   TEST-POINT2               PAD.02X.02            Bare copper test points for troubleshooting or ICT                                                                                       
-Y1       3M6864       CRYSTALSMD                HC49UP                Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00534                                                      
+Exported from HARTShield.sch at 22.01.2014 1:58:03
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device                    Package               Library             Sheet
+
+AMP1     OP37GS         OP37GS                    SO8                   hartmodems          1
+ARDUINO1 ARDUINO        ARDUINO                   ARDUINO               post7_arduino       1
+C1       27p            CAP0603-CAP               0603-CAP              SparkFun-Capacitors 1
+C2       27p            CAP0603-CAP               0603-CAP              SparkFun-Capacitors 1
+C3       0.1uF          0.1UF-25V(+80/-20%)(0603) 0603-CAP              SparkFun-Capacitors 1
+C4       0.1uF          0.1UF-25V(+80/-20%)(0603) 0603-CAP              SparkFun-Capacitors 1
+C5       2.2nF          0.1UF-25V(+80/-20%)(0603) 0603-CAP              SparkFun-Capacitors 1
+C6       10uF           10UF-TANT                 EIA3216               SparkFun-Capacitors 1
+C7       10nF           0.1UF-25V(+80/-20%)(0603) 0603-CAP              SparkFun-Capacitors 1
+C8       4.7uF          0.1UF-25V(+80/-20%)(0603) 0603-CAP              SparkFun-Capacitors 1
+C9       10uF           10UF-TANT                 EIA3216               SparkFun-Capacitors 1
+C10      0.1uF          0.1UF-25V(+80/-20%)(0603) 0603-CAP              SparkFun-Capacitors 1
+C11      10uF           10UF-TANT                 EIA3216               SparkFun-Capacitors 1
+C12      10uF           10UF-TANT                 EIA3216               SparkFun-Capacitors 1
+C13      0.1uF          0.1UF-50V-20%(PTH)KIT-EZ  CAP-PTH-SMALL-KIT     SparkFun-Capacitors 1
+C14                     0.1UF-50V-20%(PTH)KIT-EZ  CAP-PTH-SMALL-KIT     SparkFun-Capacitors 1
+CNV1     ICL7660CSA     ICL7660CSA                SO08                  maxim               1
+FLT1     MAX404X-SO8    MAX404X-SO8               SO8                   hartmodems          1
+HART1    DS8500TQFN20   DS8500TQFN20              TQFN20-5X5            hartmodems          1
+JP1      HART           M04SCREW                  SCREWTERMINAL-3.5MM-4 SparkFun-Connectors 1
+R1       300k           RESISTOR0805-RES          0805                  SparkFun-Resistors  1
+R2       1k             RESISTOR0805-RES          0805                  SparkFun-Resistors  1
+R3       1              RESISTOR1206              1206                  SparkFun-Resistors  1
+R4       300k           RESISTOR0805-RES          0805                  SparkFun-Resistors  1
+R5       1k             RESISTOR0805-RES          0805                  SparkFun-Resistors  1
+R6       1.58K          RESISTOR0603              0603-RES              SparkFun-Resistors  1
+R7       1.8k           RESISTOR0805-RES          0805                  SparkFun-Resistors  1
+R8       10k            RESISTOR0805-RES          0805                  SparkFun-Resistors  1
+TP1                     TEST-POINT2               PAD.02X.02            SparkFun-Passives   1
+TP2                     TEST-POINT2               PAD.02X.02            SparkFun-Passives   1
+Y1       3M6864         CRYSTALSMD                HC49UP                SparkFun-FreqCtrl   1

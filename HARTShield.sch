@@ -129,13 +129,13 @@
 <package name="SO8">
 <description>&lt;b&gt;8-Lead Small Outline IC&lt;/b&gt; (SO-8)&lt;p&gt;
 Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
 <smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
@@ -154,6 +154,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<circle x="-1.778" y="-0.762" radius="0.254" width="0.127" layer="21"/>
 </package>
 <package name="TQFN20-5X5">
 <description>&lt;b&gt;THIN QFN 20&lt;/b&gt; 5x5x0.75mm&lt;p&gt;
@@ -249,7 +250,7 @@ Source: http://pdfserv.maxim-ic.com/package_dwgs/21-0140.PDF</description>
 </package>
 </packages>
 <symbols>
-<symbol name="OP177G">
+<symbol name="OP37G">
 <description>Ultraprecision amplifier</description>
 <wire x1="-5.08" y1="10.16" x2="10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="10.16" y1="0" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
@@ -307,18 +308,18 @@ Source: http://pdfserv.maxim-ic.com/package_dwgs/21-0140.PDF</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OP177G">
+<deviceset name="OP37G">
 <description>Ultraprecision amplifier</description>
 <gates>
-<gate name="AMP$1" symbol="OP177G" x="0" y="0"/>
+<gate name="AMP$1" symbol="OP37G" x="0" y="0"/>
 </gates>
 <devices>
 <device name="P" package="DIL08">
 <connects>
 <connect gate="AMP$1" pin="+" pad="3"/>
 <connect gate="AMP$1" pin="-" pad="2"/>
-<connect gate="AMP$1" pin="OUT" pad="7"/>
-<connect gate="AMP$1" pin="V+" pad="6"/>
+<connect gate="AMP$1" pin="OUT" pad="6"/>
+<connect gate="AMP$1" pin="V+" pad="7"/>
 <connect gate="AMP$1" pin="V-" pad="4"/>
 </connects>
 <technologies>
@@ -3017,7 +3018,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="10UF-TANT" device="" value="10uF"/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VNEG" device="" value="-5V"/>
-<part name="AMP1" library="hartmodems" deviceset="OP177G" device="S"/>
+<part name="AMP1" library="hartmodems" deviceset="OP37G" device="S"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VNEG" device="" value="-5V"/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="HART1" library="hartmodems" deviceset="DS8500" device="TQFN20"/>
